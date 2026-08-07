@@ -3,7 +3,8 @@ menu:
   Archives: /archives
 
 rss: false
-subtitle: Learning in public
+banner: images/minimal-embedded-banner.svg
+subtitle: Embedded Learning
 sidebar: false
 widgets: []
 fancybox: true

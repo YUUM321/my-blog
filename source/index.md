@@ -1,5 +1,5 @@
 ---
-title: Learning Journey
+title: Embedded Learning Journey
 ---
 
 <style>
@@ -31,8 +31,23 @@ title: Learning Journey
   color: #666;
 }
 
-.journey ul {
-  padding-left: 20px;
+.journey .slots {
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.journey .slots li {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 12px 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.journey .slots span {
+  color: #999;
+  white-space: nowrap;
 }
 
 .journey .meta {
@@ -44,28 +59,18 @@ title: Learning Journey
 
 <section class="journey">
   <h1>FOCUS</h1>
-  <p class="intro">这里记录我的编程学习历程、项目实践和阶段复盘。适合作为简历中的补充链接，展示我如何学习、解决问题和持续积累。</p>
+  <p class="intro">嵌入式学习历程记录</p>
 
-  <h2>学习方向</h2>
-  <ul>
-    <li>前端基础：HTML、CSS、JavaScript</li>
-    <li>工程实践：Git、部署、博客搭建、项目整理</li>
-    <li>项目复盘：记录问题、解决过程和改进思路</li>
+  <h2>文章位置</h2>
+  <ul class="slots">
+    <li><a href="/2026/08/08/embedded-note-01/">嵌入式学习记录 01</a><span>待补充</span></li>
+    <li><a href="/2026/08/08/embedded-note-02/">嵌入式学习记录 02</a><span>待补充</span></li>
+    <li><a href="/2026/08/08/embedded-note-03/">嵌入式学习记录 03</a><span>待补充</span></li>
   </ul>
 
-  <h2>阶段记录</h2>
-  <ul>
-    <li>搭建个人博客，建立长期记录入口</li>
-    <li>整理学习笔记，把零散知识沉淀成可复用内容</li>
-    <li>逐步补充项目页面、源码链接和实现说明</li>
-  </ul>
-
-  <h2>计划展示</h2>
-  <ul>
-    <li>课程笔记</li>
-    <li>练习项目</li>
-    <li>问题排查记录</li>
-    <li>完整项目复盘</li>
+  <h2>项目位置</h2>
+  <ul class="slots">
+    <li><a href="/2026/08/08/embedded-project-01/">嵌入式项目记录 01</a><span>待补充</span></li>
   </ul>
 
   <p class="meta">GitHub: <a href="https://github.com/YUUM321" target="_blank" rel="noopener">YUUM321</a></p>
