@@ -1,0 +1,11 @@
+menu:
+  Home: /
+  Archives: /archives
+
+rss: false
+subtitle: Learning in public
+sidebar: false
+widgets: []
+fancybox: true
+excerpt_link: Read More
+favicon:
